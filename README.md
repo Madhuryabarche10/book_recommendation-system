@@ -1,79 +1,70 @@
-# book_recommendation-system
-# Book Recommendation System
+# Getting Started with Create React App
 
-This book recommendation system uses collaborative filtering techniques, KNN Model to  make recommendations. Users can search for books based on title, author name, or publisher and in result the recommendations will be displayed.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Available Scripts
 
-## Run Locally
+In the project directory, you can run:
 
-Clone the project
+### `npm start`
 
-```bash
-  git clone https://link-to-project
-```
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-Go to the project directory
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-```bash
-  cd book-recommendation
-```
+### `npm test`
 
-Start the application using Docker Compose:
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-```bash
-  docker-compose up
-```
+### `npm run build`
 
-Navigate to http://localhost:3000 in your web browser to access the application.
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-## Project Structure
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-The Project Structure is as follow:
+### `npm run eject`
 
-``` bash
-project/
-├── backend/
-│   ├── app/
-│   │   ├── __init__.py
-│   │   └── main.py
-│   ├── Dockerfile
-│   └── requirements.txt
-├── frontend/
-│   ├── public/
-│   ├── src/
-│   │   ├── components/
-│   │   ├── pages/
-│   │   ├── services/
-│   │   ├── App.js
-│   │   ├── index.js
-│   │   └── ...
-│   ├── Dockerfile
-│   └── package.json
-├── docker-compose.yml
-└── README.md
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-```
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-## Screenshots
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-![App Screenshot](https://github.com/VinayWankhede11/Book-Recommendation-System/blob/main/Book%20SS.jpeg)
+## Learn More
 
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-## Features
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-- KNN model based recomendation
-- Popular books by Year, All time.
-- Responsive Frontend in React.js.
-- Search based book recomendation based on author, publisher.
+### Code Splitting
 
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-## Tech Stack
+### Analyzing the Bundle Size
 
-**Client:** ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB) ![Material UI](https://img.shields.io/badge/UI%20Framework-Material%20UI-007FFF)  ![Javascript](https://img.shields.io/badge/Language-JavaScript-F7DF1E)
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-**Server:** ![FASTAPI](https://img.shields.io/badge/fastapi-109989?style=for-the-badge&logo=FASTAPI&logoColor=white) ![Python](https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue)  ![Scikit-Learn](https://img.shields.io/badge/scikit_learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white) ![Pandas](https://img.shields.io/badge/Pandas-2C2D72?style=for-the-badge&logo=pandas&logoColor=white) ,![Numpy](https://img.shields.io/badge/Numpy-777BB4?style=for-the-badge&logo=numpy&logoColor=white), pickle
+### Making a Progressive Web App
 
-**Deployment** ![Docker](https://img.shields.io/badge/Docker-2CA5E0?style=for-the-badge&logo=docker&logoColor=white)
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
